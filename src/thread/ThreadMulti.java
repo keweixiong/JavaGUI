@@ -1,3 +1,4 @@
+package thread;
 // Create multiple threads.
 class NewThreadBCD implements Runnable {
     String name; // name of thread

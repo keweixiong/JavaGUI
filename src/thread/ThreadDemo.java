@@ -1,3 +1,4 @@
+package thread;
 // Thread Basic
 
 // Create a second thread.

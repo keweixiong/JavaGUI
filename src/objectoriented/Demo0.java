@@ -1,11 +1,15 @@
+package objectoriented;
 import static java.lang.System.*;
 
-public final class Demo{
+// just a simple begin for void main() 
+
+public final class Demo0{
     public static void main(String[] args) {
 
     	int i;
     	int sum;
-    	System.out.printf("%s", "Hello Yuyang");
+    	System.out.printf("%s", "\nHello computerworld\n");
+    	
     	for ( i = 1 ; i < 10; i++)
     		System.out.printf("%d ", i );
     	

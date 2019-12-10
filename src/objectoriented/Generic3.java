@@ -1,5 +1,5 @@
 //  use ? ? in Generic 
-package p1;
+package objectoriented;
 
 public class Generic3 {
     public static void main(String[] args){

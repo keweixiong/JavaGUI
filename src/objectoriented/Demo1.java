@@ -1,18 +1,15 @@
+package objectoriented;
 
 // all the content in this file are in default package
 
-public class HelloWorld {
+public class Demo1 {
 
 	static int i;
-	
-
-
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("HelloWorld !");
  
-	
 		i = 1 ;
 		for (i=1 ; i<=10; i++)
 		{

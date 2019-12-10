@@ -1,3 +1,7 @@
+package objectoriented;
+
+// demo for interface 
+
 public class Interface{
     public void test1(INTA INTA) {
         INTA.doSth();

@@ -6,7 +6,7 @@ package p1;
 
 */
 
-package p1;
+
 
 public class AssertExample {
     public static void main(String[] args) {
@@ -18,7 +18,9 @@ public class AssertExample {
                 /* Ignore */
             }
         }
-        System.out.println("Testing assertion that x == 10");
+        
+        
+        System.out.println("Testing assertion... ");
         x = 19;
         assert x == 10 : "Our assertion failed";
         System.out.println("Test passed");

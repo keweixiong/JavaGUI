@@ -1,5 +1,6 @@
+package objectoriented;
 // show what is Polymorphism, basic idea
-// father can be animal, and he can also be Cat or Cow 
+// father can be animal, and he can also be Cat or Cow  by override
 
 public class Polymorphism {
 

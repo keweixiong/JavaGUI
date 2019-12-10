@@ -1,4 +1,4 @@
-package p1;
+package objectoriented;
 
 public class Generics2 {
     public static void main(String[] args){

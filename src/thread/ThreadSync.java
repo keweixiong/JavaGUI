@@ -1,3 +1,4 @@
+package thread;
 // Join() ensure the main thread end after the son thread
 
 // ，一旦线程进入实例的同步方法，没有其他线程可以进入相同实例的同步方法。然而，该实例的其他不同步方法却仍然可以被调用。

@@ -1,6 +1,6 @@
-// all the content in this file are in default package
+package objectoriented;
 
-
+// demo for override  overload 
 
 //the class without private/public/protected 
 class  Catxxx {
@@ -21,7 +21,7 @@ public class Dog {
         System.out.println("I am barking");
     }
 
-    void bark(int i){ // overload bark()
+    void bark(int i){                                     // overload bark()
     	System.out.printf("barking int %d   \n", i);
     }
     
@@ -39,7 +39,7 @@ class MyDog extends Dog {
 		// TODO Auto-generated constructor stub
 	}
 	
-	// override 
+	                                                       // override 
     void bark(){  
         System.out.println("I am son barking, I have replaced the barking of my parent");
     }

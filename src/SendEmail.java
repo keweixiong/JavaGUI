@@ -1,4 +1,4 @@
-package p1;
+
 
 //文件名 SendEmail.java
 
@@ -12,19 +12,22 @@ public class SendEmail
 public static void main(String [] args)
 {   
    // 收件人电子邮箱
-   String to = "abcd@gmail.com";
+   String to = "abc@abc.com";
 
    // 发件人电子邮箱
-   String from = "keweixiong@139.com";
+   String from = "abc@abc.com";
 
-   // 指定发送邮件的主机为 localhost
-   String host = "mail.139.com";
+
 
    // 获取系统属性
    Properties properties = System.getProperties();
 
    // 设置邮件服务器
-   properties.setProperty("mail.smtp.host", host);
+   properties.put("mail.smtp.host", "smtp.139.com");
+     
+   properties.put("mail.smtp.auth", "true");
+   properties.put("mail.user", "abc@abc.com");
+   properties.put("mail.password", "abc");
 
    // 获取默认session对象
    Session session = Session.getDefaultInstance(properties);

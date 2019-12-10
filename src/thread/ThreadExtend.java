@@ -1,3 +1,4 @@
+package thread;
 // Create a second thread by extending Thread, just a different way, no much difference
 class NewThreadABC extends Thread {
     NewThreadABC() {

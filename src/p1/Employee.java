@@ -1,4 +1,4 @@
-// no main() in this file, the class will be used by p2.EmployeeTest.java
+// no main() in this file, the class Employee will be used by p2.EmployeeTest.java
 
 package p1;
 

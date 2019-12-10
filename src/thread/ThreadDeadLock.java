@@ -1,3 +1,4 @@
+package thread;
 
 // An example of ThreadDeadLock.
 // to have the effect you expected, please de-note the lines with !!!!!!!!!!!!!!!
